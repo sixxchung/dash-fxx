@@ -6,7 +6,7 @@ import flask
 # from flask_caching import Cache
 
 from utils.external_assets import ROOT, EXTERNAL_STYLESHEETS, FONT_AWSOME
-from ui.main_content import layout
+from layout_ui.main_content import layout
 
 
 # =============================================================================

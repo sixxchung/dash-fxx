@@ -1,5 +1,14 @@
 # dash-fxx
 
+
+
+
+
+
+
+
+
+
 # example> add menu stock plot
 
 -1- make a new folder(stock) for dash
