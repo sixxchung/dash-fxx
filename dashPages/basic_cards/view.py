@@ -3,8 +3,8 @@ from dash import dcc, html
 import dash_admin_components as dac
 
 
-from components.table import make_dash_table
-from components.example_plots import plot_pie, plot_surface, plot_scatter
+#from components.table import make_dash_table
+#from components.example_plots import plot_pie, plot_surface, plot_scatter
 
 dropdown_items = [
 	dac.BoxDropdownItem(url="https://www.google.com", children="Link to google"),
@@ -26,11 +26,11 @@ content = dac.TabItem(id='content_basic_cards',
                             title="Closable box with dropdown"
                         ),
                     	dac.BoxBody(
-                            dcc.Graph(
-                                figure=plot_pie(),
-                                config=dict(displayModeBar=False),
-                                style={'width': '38vw'}
-                            )
+                            # dcc.Graph(
+                            #     figure=plot_pie(),
+                            #     config=dict(displayModeBar=False),
+                            #     style={'width': '38vw'}
+                            # )
                         )		
                     ],
                     color='warning',
@@ -44,11 +44,11 @@ content = dac.TabItem(id='content_basic_cards',
                             title="Closable box with gradient"
                         ),
                     	dac.BoxBody(
-                            dcc.Graph(
-                                figure=plot_surface(),
-                                config=dict(displayModeBar=False),
-                                style={'width': '38vw'}
-                            )
+                            # dcc.Graph(
+                            #     figure=plot_surface(),
+                            #     config=dict(displayModeBar=False),
+                            #     style={'width': '38vw'}
+                            # )
                         )		
                     ],
                     gradient_color="success",
@@ -67,9 +67,9 @@ content = dac.TabItem(id='content_basic_cards',
                     ),
                 	dac.BoxBody(
                         dcc.Graph(
-                            figure=plot_scatter(),
-                            config=dict(displayModeBar=False),
-                            style={'width': '38vw'}
+                            # figure=plot_scatter(),
+                            # config=dict(displayModeBar=False),
+                            # style={'width': '38vw'}
                         )
                     )		
                 ],

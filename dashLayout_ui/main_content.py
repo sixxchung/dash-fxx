@@ -6,7 +6,7 @@ import dash_admin_components as dac
 import sys, os
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 
-from ui.sidebar import sidebar
+from dashLayout_ui.sidebar import sidebar
 # Navbar
 top_right_ui = dac.NavbarDropdown(
 	badge_label = "!",
